@@ -1,15 +1,9 @@
 ## ℹ️ Introduction
 
-**React Native Chat App** is a real-time chat application built using [React Native](https://reactnative.dev/) and [Expo](https://expo.dev/), powered by [Firebase](https://firebase.google.com/) (Web v9) for authentication and real-time messaging.
-
-- For the live demo video see [Demo.mp4](./media/ReactNativeChat-Live-Demo.mp4)     
-
+**React Native Chat App** is a real-time chat application built using [React Native](https://reactnative.dev/) powered by [Firebase](https://firebase.google.com/) for authentication and real-time messaging.
+    
 https://github.com/Ctere1/react-native-chat/assets/62745858/bcde4aa0-d2f2-4d8c-8716-bf274c059d2e
 
-> [!NOTE] 
-> See screenshots below for a preview.
-
----
 
 ## ⚡ Features
 
@@ -39,40 +33,8 @@ cd react-native-chat
 # Install dependencies
 npm install
 
-# Start the Expo development server
-npx expo start
-```
-
-> [!TIP] 
-> Install [Expo Go](https://expo.dev/go) on your mobile device to test the app instantly.
-
-> [!WARNING]  
-> Don't forget to set up your `.env` file for Firebase connection. See [Firebase docs](https://firebase.google.com/docs/firestore/quickstart) or [this comment](https://github.com/Ctere1/react-native-chat/issues/1#issuecomment-2414810841).
-
 ---
 
-## 🏗️ Building Guide
-
-To build this application for production (e.g., APK for Android):
-
-1. **Set up environment variables:**  
-   Create a `.env` file with your Firebase config. Push it to EAS environment:
-
-   ```bash
-   eas secret:push --scope project --env-file .env
-   ```
-
-2. **Build the APK (Android):**
-
-   ```bash
-   eas build -p android --profile preview
-   ```
-
-   This will use the preview profile in [eas.json](/eas.json).
-
-> [!NOTE]   
-> Environment variables in `.env` are used by Expo CLI locally.  
-> For EAS Build, define variables in your `eas.json` build profile for best results.
 
 > **Local Build:**
 >
@@ -115,21 +77,6 @@ To build this application for production (e.g., APK for Android):
 
 ---
 
-## 📝 Credits
-
-This software uses the following packages:
-
-- [Expo](https://expo.dev/)
-- [React](https://react.dev/)
-- [React Native](https://reactnative.dev/)
-- [Firebase](https://firebase.google.com/)
-- [react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
-- [react-native-emoji-modal](https://github.com/staltz/react-native-emoji-modal)
-
----
-
-## © License
-![GitHub](https://img.shields.io/github/license/Ctere1/react-native-chat)
 
 ---
 
@@ -140,11 +87,3 @@ This software uses the following packages:
 </a>
 
 ---
-
-## 📌 Contributors
-
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/0d9c40f20e57bc518a7e1419e18f6b6cfa57873d.svg)
-
-<a href="https://github.com/Ctere1/react-native-chat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Ctere1/react-native-chat" alt="Contributors">
-</a>
