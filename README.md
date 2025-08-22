@@ -25,7 +25,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-git clone 
+git clone https://github.com/Vishwa-Bandhu1/Chat-Application.git
 cd react-native-chat
 
 # Install dependencies
@@ -46,42 +46,4 @@ npm install
 
 ---
 
-## 🪟 Screenshots
 
-### **Login & Signup**
-| Login | Signup |
-| :---: | :----: |
-| <img src="./media/ss1.jpg"  width="250"> | <img src="./media/ss2.jpg"  width="250"> |
-
-### **Chats & Users**
-| Chats | Users | Group Chat | Delete Chats |
-| :---: | :---: | :--------: | :----------: |
-| <img src="./media/ss3.jpg"  width="250"> | <img src="./media/ss4.jpg"  width="250"> | <img src="./media/ss5.jpg"  width="250"> | <img src="./media/ss7.jpg"  width="250"> |
-
-### **Settings & More**
-| Settings | Profile | Help | Account |
-| :------: | :-----: | :--: | :-----: |
-| <img src="./media/ss8.jpg"  width="250"> | <img src="./media/ss9.jpg"  width="250"> | <img src="./media/ss10.jpg"  width="250"> | <img src="./media/ss11.jpg"  width="250"> |
-
-### **Chat Experience**
-| Emoji Panel | Note to Self | Main Chat Screen | Chat Info |
-| :---------: | :----------: | :--------------: | :-------: |
-| <img src="./media/ss12.jpg"  width="250"> | <img src="./media/ss13.jpg"  width="250"> | <img src="./media/ss14.jpg"  width="250"> | <img src="./media/ss15.jpg"  width="250"> |
-
-###  **Other**
-| Message Indicator |
-| :--------------: |
-| <img src="./media/ss16.jpg"  width="250"> |
-
----
-
-
----
-
-## 📈 Star History
-
-<a href="https://app.repohistory.com/star-history?repo=Ctere1/react-native-chat">
-  <img src="https://app.repohistory.com/api/svg?repo=Ctere1/react-native-chat&type=Date&background=0D1117&color=6278f8" alt="Star History Chart">
-</a>
-
----
