@@ -19,31 +19,4 @@
 
 ---
 
-## 💾 Installation Guide
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (with [npm](http://npmjs.com)).
-
-```bash
-# Clone this repository
-git clone https://github.com/Vishwa-Bandhu1/Chat-Application.git
-cd react-native-chat
-
-# Install dependencies
-npm install
-
----
-
-
-> **Local Build:**
->
-> ```bash
-> # For android
-> npm run android
->
-> # For ios
-> npm run ios
-> ```
-
----
-
 
